@@ -83,6 +83,8 @@ article {
 article img {
     position: absolute;
     right: 200;
+    width: 150px;
+    height: auto;
 }
 
 article p {
