@@ -76,19 +76,32 @@ p {
 }
 
 article {
-    position: relative;
+    position: absolute;
+    top: 200px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 80%;
     background-color: rgb(128, 255, 236, 0.6);
 }
 
-article img {
+h1 {
     position: absolute;
+    top: 50px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    background-color: rgb(128, 255, 236, 0.6);
+
+}
+
+.hero article img {
+    float: right;
     right: 200px;
     width: 150px;
     height: auto;
 }
 
 article p {
-    margin-right: 0px; /* Adjust this value as needed */
+    margin-right: 0px; 
 }
-
-
