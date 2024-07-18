@@ -46,7 +46,7 @@ main {
     max-width: 840px;
     grid-column: 2/3;
     margin: 1rem;
-    grid-template-columns: 2;
+    grid-template-columns: 2/3;
 }
 
 aside {
