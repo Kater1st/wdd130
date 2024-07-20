@@ -168,16 +168,13 @@ footer {
 }
 
 .his_art {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     margin: 0 auto;
     background-color: rgb(128, 255, 236, 0.6);
 }
 
 .his_art img {
-    position: relative;
-    float: left;
-    width: 350px;
-    height: auto;
-}
-.his_text {
-    text-align: justify;
+    width: 3200px;
+    margin: 50px;
 }
