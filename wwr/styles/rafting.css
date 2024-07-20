@@ -3,7 +3,7 @@
 :root {
     --primary-color: #80FFEC;
     --secondary-color: #7DF9FF;
-    --accent1-color: #000000;
+    --accent1-color: #003366;
     --accent2-color: #FFFFFF;
 
     --heading-font: 'Arial', serif;
@@ -23,9 +23,11 @@ body {
 }
 
 nav {
-    background-color: var(--nav-background-color);
     font-size: 1.2rem;
     display: flex;
+    justify-content: space-evenly;
+    height: 54px;
+    align-self: center;
 }
 
 nav a {
@@ -58,6 +60,9 @@ h1, h2, h3, h4, h5, h6 {
 header {
     padding: 20px;
     background-color: var(--accent1-color);
+    display: grid;
+    align-items: center;
+    grid-template-columns: 200px 3fr;
 
 }
 
@@ -104,4 +109,76 @@ h1 {
 
 article p {
     margin-right: 0px; 
+}
+
+.adv_heading {
+    display: flex;
+    justify-content: center;
+}
+
+.adv_img {
+    display: grid;
+    grid-template-columns: 192px 192px 192px 192px 192px;
+    justify-content: space-evenly;
+    width: 960px;
+    margin-bottom: 20px;
+    justify-items: center;
+    
+}
+
+.adv_img img {
+    width: 185px;
+    height: 140px;
+}
+
+.sociallinks {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 110px;
+    width: 240px;
+}
+
+.sociallinks img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    float: right;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+
+    
+}
+
+.his {
+    display: flex;
+    margin-top: 60px;
+    justify-content: center;
+}
+
+.fot_p {
+    display: flex;
+    justify-content: center;
+}
+
+.nav_header {
+    background-color: #00ff7f;
+}
+
+.his_art {
+    margin: 0 auto;
+    background-color: rgb(128, 255, 236, 0.6);
+}
+
+.his_art img {
+    position: relative;
+    float: left;
+    right: 200px;
+    width: 350px;
+    height: auto;
+}
+.his_text {
+    text-align: just;
 }
