@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
 :root {
-    --primary-color: #80FFEC;
+    --primary-color: black;
     --secondary-color: #7DF9FF;
     --accent1-color: #003366;
     --accent2-color: #FFFFFF;
@@ -11,7 +11,7 @@
 
     --nav-background-color: #00ff7f;
     --nav-link-color: #000000;
-    --nav-hover-link-color: #FFFFFF;
+    --nav-hover-link-color: black;
     --nav-hover-background-color: #80FFEC;
 }
 
@@ -178,3 +178,90 @@ footer {
     width: 320px;
     margin: 50px;
 }
+
+
+
+.contc_detail {
+    display: grid;
+    justify-items: center;
+    margin-top: 30px;
+}
+
+.map_form {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.map {
+    width: 480px;
+    height: 292px;
+    margin-left: 5px;
+}
+.form {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+
+  .radio-group {
+    margin-top: 10px;
+  }
+
+  .radio-group label {
+    font-weight: normal;
+    margin-right: 10px;
+  }
+
+  .checkbox-group {
+    margin-top: 10px;
+    display: flex;
+  }
+
+  .checkbox-group label {
+    font-weight: normal;
+  }
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+  }
+
+  button[type="submit"]:hover {
+    background-color: #45a049;
+  }
