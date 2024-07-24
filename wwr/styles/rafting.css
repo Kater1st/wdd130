@@ -114,6 +114,7 @@ article p {
 .adv_heading {
     display: flex;
     justify-content: center;
+    background-color: rgb(128, 255, 236, 0.6);
 }
 
 .adv_img {
@@ -156,6 +157,8 @@ footer {
     display: flex;
     margin-top: 60px;
     justify-content: center;
+    background-color: rgb(128, 255, 236, 0.6);
+    padding: 20px;
 }
 
 .fot_p {
