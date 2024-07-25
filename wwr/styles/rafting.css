@@ -367,4 +367,108 @@ button[type="submit"] {
     margin: 0;
 
   }
+
+
+
+
+
   
+
+        .hero h2 {
+            font-size: 2.9rem;
+            margin-bottom: 20px;
+            color: #003366;
+        }
+
+        .button_home {
+            display: flex;
+            flex-direction: column;
+            background-color: #003366;
+            color: white;
+            width: 320px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            align-self: center;  
+            margin: auto;  
+            border-radius: 5px        
+        }
+
+        .newsletter {
+            background-color: #fff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 80px;
+            background-color: whitesmoke;
+        }
+
+        .newsletter form {
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .newsletter input[type="text"],
+        .newsletter input[type="email"] {
+            padding: 10px;
+            width: calc(50% - 10px);
+            margin: 5px;
+        }
+
+        .newsletter input[type="submit"] {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 50px 0;
+        }
+
+        .cta a {
+            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .cta a:hover {
+            background-color: #555;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            border-radius: 5px;
+        }
+        
+        .art_p  {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: navy;
+        }
+
+        .nws_form {
+            width: 700px;
+            display: flex;
+            
+        }
+
+        
