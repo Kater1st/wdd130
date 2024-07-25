@@ -268,3 +268,103 @@ button[type="submit"] {
   button[type="submit"]:hover {
     background-color: #45a049;
   }
+
+  .tab_sec {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 22px;
+    }
+
+  .tab_sec table {
+    display: table;
+    border-collapse: separate;
+    box-sizing: border-box;
+    text-indent: initial;
+    unicode-bidi: isolate;
+    border-spacing: 2px;
+    border-color: black;
+    border-collapse: collapse;
+    width: 70%;
+
+  }
+  .tab_sec thead {
+    font-size: 25px;
+  }
+
+  .tab_sec th {
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    box-sizing: border-box;
+  }
+
+  .tab_sec tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    unicode-bidi: isolate;
+    border: 1px solid black;
+
+  }
+
+  .tab_sec tr {
+    background-color: var(--nav-hover-background-color);
+    color: black;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .tab_sec td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  .trips {
+    display: flex;
+  }
+
+  .trip_img {
+    display: grid;
+    grid-template-columns: 320px 320px 320px;
+    width: 960px;
+    justify-content: space-evenly;
+    justify-items: center;
+  }
+
+  .trip_img img {
+    width: 300px;
+    height: 250px;
+  }
+
+  .fig {
+    display: flex;
+    flex-direction: column;
+    width: 320px;
+    justify-content: top;
+    align-items: center;
+    border: 1px solid var(--nav-hover-background-color);
+    background-color: whitesmoke;
+    }
+
+  .trips_heading {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--nav-hover-background-color);
+    align-items: center;
+    margin-top: 80px;
+    margin-bottom: 40px;   
+  }
+
+  section {
+    margin-top: 50px;
+  }
+
+  .p_con {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+
+  }
+  
