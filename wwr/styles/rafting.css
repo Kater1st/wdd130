@@ -341,7 +341,6 @@ button[type="submit"] {
     display: flex;
     flex-direction: column;
     width: 320px;
-    justify-content: top;
     align-items: center;
     border: 1px solid var(--nav-hover-background-color);
     background-color: whitesmoke;
